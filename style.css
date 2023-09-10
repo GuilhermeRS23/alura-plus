@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-branca-pri: #ffffff;
+    --cor-cinza-sec: #C0C0C0;
+    --cor-azul-bot: #167bf7;
+    --cor-preta-back: #00030C;
+}
+
+body{
+    background-color: var(--cor-preta-back);
+    color: var(--cor-branca-pri);
+}
+
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+}
