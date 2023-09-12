@@ -26,12 +26,22 @@ body{
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.container__caixa{
+margin: 0 6rem;
+}
+
+.container__imagem{
+margin: 2rem 0 2rem 0;
 }
 
 .container__titulo{
@@ -46,6 +56,7 @@ body{
     display: block;
     color: var(--cor-branca-pri);
     text-decoration: none;
+    margin-bottom: 1rem;
 }
 
 .botao__secudario{
@@ -56,4 +67,33 @@ body{
 .container__aviso{
     color: var(--cor-cinza-sec);
     font-size: 0.75rem;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--fonte--principal);
+    margin-bottom: 0.2rem ;
+}
+
+.descricao__texto{
+    color: var(--cor-cinza-sec);
+}
+
+.secundario__botao{
+    margin-top:1.5rem ;
+    display: inline-block;
+}
+
+.container__descricao{
+    padding: 1.5rem;
 }
